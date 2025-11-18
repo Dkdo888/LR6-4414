@@ -42,6 +42,8 @@ cd LR6-4414
 
 **Команды:**
 git pull origin master
+<img width="754" height="356" alt="Создание_файла" src="https://github.com/user-attachments/assets/7dffaf03-779a-4eec-ab34-f0eaba03ec47" />
+
 ### 4. История операций
 
 **Выполненные действия:**
@@ -54,6 +56,8 @@ git pull origin master
 git log --oneline --all
 git log --graph --oneline --all
 git branch -a
+<img width="824" height="288" alt="Получение_истории" src="https://github.com/user-attachments/assets/7a12eeda-a9ce-4fa1-9f0b-c73431d204b7" />
+
 ### 5. Просмотр изменений
 **Выполненные действия:**
 1. Просмотрел последний коммит
@@ -63,17 +67,21 @@ git branch -a
 git show
 git diff HEAD~1 HEAD
 git status
-### 5. Слияние веток
-# Создал тестовую ветку
+<img width="943" height="695" alt="Просмотр_изменений" src="https://github.com/user-attachments/assets/7a792b46-f35a-447b-b665-411df7a81dad" />
+
+### 6. Слияние веток
+Создал тестовую ветку
 git checkout -b feature-branch
 
-# Внес изменения в файл
-# Вернулся в master и внес конфликтующие изменения
+Внес изменения в файл
+Вернулся в master и внес конфликтующие изменения
 git merge feature-branch
 ## Разрешение конфликта:
 1. Открыл файл с помощью редактора Meld
 2. Внес необходимые изменения
 3. Объединил изменения из обоих веток
+<img width="1909" height="927" alt="Редактирование_в_Meld" src="https://github.com/user-attachments/assets/c9383660-e0a9-451e-b67d-a9c841819e53" />
+
 ### 7. Удаление ветки
 **Выполненные действия:**
 1. Убедился, что слияние завершено успешно
@@ -81,9 +89,13 @@ git merge feature-branch
 
 **Команды:**
 git branch -d feature-branch
+<img width="735" height="206" alt="Удаление_ветки" src="https://github.com/user-attachments/assets/402784d6-187d-40cf-981f-e064c7f4b99f" />
+
 ### 8. Создание коммитов
 **Выполненные действия:**
 Создал серию коммитов с осмысленными комментариями
+<img width="965" height="549" alt="Создание_коммитов" src="https://github.com/user-attachments/assets/3dbd68e5-66d5-4b12-b57c-89385e9a0e63" />
+
 ### 9. Откат коммита
 
 **Выполненные действия:**
@@ -95,6 +107,8 @@ git branch -d feature-branch
 git log --oneline -3
 git revert HEAD --no-edit
 git log --oneline -3
+<img width="800" height="359" alt="Откат_коммита" src="https://github.com/user-attachments/assets/aa7cdf09-6393-4a2a-9508-30ec18bfc5ef" />
+
 ### 10. Создание ветки для отчета
 
 **Выполненные действия:**
@@ -104,4 +118,5 @@ git log --oneline -3
 **Команды:**
 git checkout -b report-branch
 git checkout -b report-branch
-![](screenshots/Добавление_ветки.png)
+<img width="965" height="308" alt="Добавление_ветки" src="https://github.com/user-attachments/assets/575fe0d6-3853-4236-bdb9-ec25ea8c40e7" />
+
