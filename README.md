@@ -26,3 +26,12 @@ git config --global user.email
 
 
 
+### 3. Добавление файла через GitHub
+
+**Выполненные дейтсвия:**
+1. Открыл свой репозиторий на GitHub
+2. Нажал "Add file" → "Create new file"
+3. Добавил содержимое файла
+
+**Команды:**
+git pull origin master
