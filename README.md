@@ -51,3 +51,12 @@ git pull origin master
 git log --oneline --all
 git log --graph --oneline --all
 git branch -a
+### 5. Просмотр изменений
+**Выполненные действия:**
+1. Просмотрел последний коммит
+2. Сравнил изменения между коммитами
+3. Проверил текущее состояние репозитория
+**Команды:**
+git show
+git diff HEAD~1 HEAD
+git status
