@@ -15,6 +15,8 @@
 **Команды:**
 git config --global user.name
 git config --global user.email
+ **Скриншот:**
+![Настройка Git](screenshots/Настройка_клиента_Git.png)
 
 ### 2. Клонирование репозитория
 
