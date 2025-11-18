@@ -28,6 +28,7 @@ git config --global user.email
 **Команды:**
 git clone https://github.com/Dkdo888/LR6-4414
 cd LR6-4414
+<img width="713" height="310" alt="Клонирование_репозитория" src="https://github.com/user-attachments/assets/374a1806-bd83-479c-ba55-3eddef63a91b" />
 
 
 
