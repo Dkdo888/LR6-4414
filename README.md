@@ -94,3 +94,13 @@ git branch -d feature-branch
 git log --oneline -3
 git revert HEAD --no-edit
 git log --oneline -3
+### 10. Создание ветки для отчета
+
+**Выполненные действия:**
+1. Создал новую ветку для работы над отчетом
+2. Переключился на созданную ветку
+
+**Команды:**
+git checkout -b report-branch
+git checkout -b report-branch
+![](screenshots/Добавление_ветки.png)
